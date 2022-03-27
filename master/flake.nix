@@ -11,6 +11,7 @@
   inputs.src-oldwinapi-master.ref   = "refs/heads/master";
   inputs.src-oldwinapi-master.owner = "nim-lang";
   inputs.src-oldwinapi-master.repo  = "oldwinapi";
+  inputs.src-oldwinapi-master.dir   = "";
   inputs.src-oldwinapi-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
